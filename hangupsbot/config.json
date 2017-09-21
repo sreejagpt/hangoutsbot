@@ -34,6 +34,7 @@
     "autoreply",
     "dnd",
     "starter",
-    "remind"
+    "remind",
+    "toastfact"
   ]
 }
