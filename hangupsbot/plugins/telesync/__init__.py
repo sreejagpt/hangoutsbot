@@ -155,7 +155,13 @@ class TelegramBot(telepot.async.Bot):
                             if self.config['be_quiet']:
                                 pass
                             else:
-                                yield from self.sendMessage(chat_id, "Unknown command: {cmd}".format(cmd=cmd))
+                                comebacks = [
+                                    'Can\'t toast that: {cmd}',
+                                    'Could you try a butter command: {cmd}',
+                                    "Step back wholemie: {cmd}"
+                                ]
+                                shuffle(comebacks)
+                                yield from self.sendMessage(chat_id, comebacks[0].format(cmd=cmd))
 
                     else:  # plain text message
                         yield from self.onMessageCallback(self, chat_id, msg)

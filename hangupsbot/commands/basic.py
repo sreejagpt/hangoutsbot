@@ -3,6 +3,7 @@ import sys
 import re
 
 import plugins
+from random import shuffle
 
 from version import __version__
 from commands import command
@@ -261,8 +262,14 @@ def unknown_command(bot, event, *args):
     tagged_silent = "silent" in bot.tags.useractive(event.user_id.chat_id, event.conv.id_)
     if not (config_silent or tagged_silent):
 
+        comebacks = [
+            '{}: Can\'t even toast that',
+            '{}: Could you try a butter command',
+            "{}: Step back wholemie"
+        ]
+        shuffle(comebacks)
         yield from bot.coro_send_message( event.conv,
-                                      _('{}: Unknown Command').format(event.user.full_name) )
+                                      _(comebacks[0]).format(event.user.full_name) )
 
 
 @command.register_blocked
@@ -271,6 +278,10 @@ def blocked_command(bot, event, *args):
     config_silent = bot.get_config_suboption(event.conv.id_, 'silentmode')
     tagged_silent = "silent" in bot.tags.useractive(event.user_id.chat_id, event.conv.id_)
     if not (config_silent or tagged_silent):
-        
-        yield from bot.coro_send_message(event.conv, _('{}: Can\'t do that.').format(
+        comebacks = [
+            '{}: Can\'t do that.',
+            '{}: Could you try a butter command'
+        ]
+        shuffle(comebacks)
+        yield from bot.coro_send_message(event.conv, _(comebacks[0]).format(
         event.user.full_name))
