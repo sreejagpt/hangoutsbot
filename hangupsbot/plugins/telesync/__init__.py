@@ -157,8 +157,6 @@ class TelegramBot(telepot.async.Bot):
                             else:
                                 comebacks = [
                                     'Can\'t toast that: {cmd}',
-                                    'Could you try a butter command: {cmd}',
-                                    "Step back wholemie: {cmd}"
                                 ]
                                 shuffle(comebacks)
                                 yield from self.sendMessage(chat_id, comebacks[0].format(cmd=cmd))

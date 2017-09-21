@@ -17,12 +17,12 @@ import aiohttp, logging, io, os, re
 logger = logging.getLogger(__name__)
 
 def _initialise(bot):
-    plugins.register_user_command(["toastfact"])
+    plugins.register_user_command(["fact"])
 
 @asyncio.coroutine
-def toastfact(bot, event):
+def fact(bot, event):
     """
-    /bot toastfact
+    toast fact
     """
 
     answers = [
