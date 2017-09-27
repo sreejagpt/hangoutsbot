@@ -263,7 +263,7 @@ def unknown_command(bot, event, *args):
     if not (config_silent or tagged_silent):
 
         comebacks = [
-            ' Can\'t even toast that!',
+            'Can\'t even toast that!',
             'Could you try a butter command?',
             "Step back, wholemie!",
             "You just got burnt",

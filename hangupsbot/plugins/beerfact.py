@@ -45,7 +45,7 @@ def beerfact(bot, event):
 
     shuffle(answers)
 
-    image_id = yield from image_validate_and_upload_single("https://lh3.googleusercontent.com/-UzyYqNk12Wk/Wctw77QR8yI/AAAAAAAAATU/nKQ6ZAIsZGAP6I_bG9Nk_1TrDnumID1pwCL0BGAYYCw/h270/g3ALR.gif", bot)
+    image_id = yield from image_validate_and_upload_single("https://i.imgur.com/hCjRkqi.gif", bot)
     yield from bot.coro_send_message(event.conv.id_, None, image_id=image_id)
 
     yield from bot.coro_send_message(event.conv, answers[0] )
