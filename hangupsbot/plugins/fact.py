@@ -41,6 +41,8 @@ def fact(bot, event):
         "Fluffy bread as we know it was discovered by Egyptians, who kneaded the dough with their feet and the yeast between their toes caused the bread to rise. Romans invented toast. http://www.wholepop.com/features/toasters/toasthistory.htm",
         "Did you know the average household in the United States spends about 35 hours a year making toast and an estimated 75 million of those household members eat toast every day? http://quickservant.com/weird-facts-about-toasters/",
         "The first toaster had quite the cute name: El Tosto.http://quickservant.com/weird-facts-about-toasters/",
+        "The first practical electrical toaster was invented by Scottish scientist, Alan MacMasters, around 1893, as previous hazardous attempts had been made by multiple inventors. http://tenrandomfacts.com/toaster/",
+        "'I went to a restaurant that serves 'breakfast at any time'. So I ordered French Toast during the Renaissance.' - Steven Wright https://www.brainyquote.com/quotes/quotes/s/stevenwrig128218.html?src=t_toast",
         "In 2000 the United States Patent and Trademark Office granted a patent on making toast — patent number 6080436, \"Bread Refreshing Method.\" http://www.google.com/patents?id=IpwDAAAAEBAJ&zoom=4&pg=PA1#v=onepage&q&f=false",
         "New arrivals to Ellis Island were given ice cream, but since they had never seen it before, assumed it was frozen butter and spread it on their toast. http://www.pastrywiz.com/letseat/icecream.htm",
         "In 1983, A Japanese artist, Tadahiko Ogawa, made a copy of the Mona Lisa completely out of toast. http://www.studiolo.org/Mona/MONASV02.htm",
@@ -53,7 +55,9 @@ def fact(bot, event):
         "Toasters aren’t just in the American kitchen. They’re in the museum as well. The Smithsonian’s National Museum of American History has about 100 toasters spanning the 18th-20th centuries. http://quickservant.com/weird-facts-about-toasters/",
         "It is said when Nellie Melba gained weight in her later career, Chef Auguste Escoffier created a thin baked toast for her diet, viola, Melba toast. In 1925, the Mayo Brothers prescribed the “Eighteen Day Reducing Diet” to Ethel Barrymore. It included Melba toast, which made the toast very popular at the time. https://mobile-cuisine.com/did-you-know/melba-toast-fun-facts/",
         "If you take sliced bread from the freezer and toast it, you lower its glycaemic index https://www.ncbi.nlm.nih.gov/pubmed/17426743",
-        "Toasters kill more people than sharks do. According to the National Geographic there are 5-15 fatal shark attacks in the world every year. The Consumer Product Safety Commission in the US says that more than 300 people are electrocuted by toasters in the US alone every year. https://semanticmarmot.wordpress.com/tag/sharks-vs-toasters/"
+        "Toasters kill more people than sharks do. According to the National Geographic there are 5-15 fatal shark attacks in the world every year. The Consumer Product Safety Commission in the US says that more than 300 people are electrocuted by toasters in the US alone every year. https://semanticmarmot.wordpress.com/tag/sharks-vs-toasters/",
+        "'That I survived the Holocaust and went on to love beautiful girls, to talk, to write, to have toast and tea and live my life - that is what is abnormal.' -Elie Wiesel https://www.brainyquote.com/quotes/quotes/e/eliewiesel451183.html?src=t_toast",
+        "'A slice of hot, buttered toast is the perfect meal. It's not too much and not too little, and it gives you just the right buzz.' - Naveen Andrews https://www.brainyquote.com/quotes/quotes/n/naveenandr439689.html?src=t_toast"
     ]
 
     shuffle(answers)

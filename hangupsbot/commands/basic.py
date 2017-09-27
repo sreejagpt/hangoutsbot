@@ -263,12 +263,15 @@ def unknown_command(bot, event, *args):
     if not (config_silent or tagged_silent):
 
         comebacks = [
-            ' Can\'t even toast that',
-            'Could you try a butter command',
-            "Step back wholemie",
+            ' Can\'t even toast that!',
+            'Could you try a butter command?',
+            "Step back, wholemie!",
             "You just got burnt",
-            "I'm agrainst that",
-            "Rye are you doing this?"
+            "I'm agrainst that!",
+            "Rye are you doing this?",
+            "We aren't bready for this command!",
+            "Is that the yeast you could do?",
+            "Bread Alert! Command not found!"
         ]
         shuffle(comebacks)
         yield from bot.coro_send_message( event.conv,
