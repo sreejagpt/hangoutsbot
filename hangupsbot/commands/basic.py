@@ -274,8 +274,9 @@ def unknown_command(bot, event, *args):
             "Bread Alert! Command not found!"
         ]
         shuffle(comebacks)
+        comeback = comebacks[0] + "\n\nUsage" + "\ntoast fact: A toast fact" + "\ntoast beerfact: A beer fact"
         yield from bot.coro_send_message( event.conv,
-                                      _(comebacks[0]).format(event.user.full_name) )
+                                      _(comeback).format(event.user.full_name) )
 
 
 @command.register_blocked

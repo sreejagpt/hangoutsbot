@@ -34,7 +34,7 @@ def beerfact(bot, event):
         "A Florida-based beer company created fully edible 6-pack rings from brewing byproducts such as wheat and barley; the rings are just as strong as the plastic variety, yet completely digestible and biodegradable. http://blogs.discovermagazine.com/d-brief/2016/05/18/edible-six-pack-rings/#.V44rojUjrgY",
         "During the global hop shortage of 2008, the Samuel Adams Beer Company sold 20,000 pounds of their excess hops to over 200 craft breweries, at cost. This helped prevent the breweries from going out of business. http://www.chicagotribune.com/bluesky/hub/chi-inc-samuel-adams-jim-koch-bsi-hub-ngux-story.html",
         "Weird Al turned down $5 million, in the late 80s, to endorse a beer company. He thought it was ethically wrong because, \"a lot of his fans were young and impressionable.\" http://www.vintagevinylnews.com/2010/11/weird-al-yankovic-regrets-turning-down.html",
-        "'The Villages', An over-55 community, has the highest consumption of draft beer and STD rate in the state of Florida. http://www.slate.com/articles/life/florida/features/2013/oh_florida/the_villages_scandals_irs_stds_golf_carts_and_made_up_history.html",
+        "An over-55 community known as 'The Villages' has the highest consumption of draft beer and STD rate in the state of Florida. http://www.slate.com/articles/life/florida/features/2013/oh_florida/the_villages_scandals_irs_stds_golf_carts_and_made_up_history.html",
         "Beer bottles are brown because brown glass blocks harmful UV sunlight, preserving the taste. However due to a shortage during WWII most beer companies were forced to use clear glass and higher quality beer makers chose green to distinguish themselves. http://berghoffbeer.com/blog/what-does-the-color-of-your-beer-bottle-mean/",
         "Carlsberg beer used to have a Swastika (as a symbol of purity) in its logo. They removed it in 1940 after the Nazi's appropriated it. http://www.historynet.com/swastika-imprinted-bottle.htm",
         "Andre the Giant set the world record for number of beers consumed in a single sitting by drinking 119 12oz beers in six hours. 1976. https://www.usatoday.com/story/life/nation-now/2016/07/27/andre-the-giant-drinking-stories-feats-insane/87616884/",
@@ -44,7 +44,8 @@ def beerfact(bot, event):
     ]
 
     shuffle(answers)
-    image_id = yield from image_validate_and_upload_single("https://i.imgur.com/yIe47Xw.gif", bot)
+
+    image_id = yield from image_validate_and_upload_single("https://lh3.googleusercontent.com/-UzyYqNk12Wk/Wctw77QR8yI/AAAAAAAAATU/nKQ6ZAIsZGAP6I_bG9Nk_1TrDnumID1pwCL0BGAYYCw/h270/g3ALR.gif", bot)
     yield from bot.coro_send_message(event.conv.id_, None, image_id=image_id)
 
     yield from bot.coro_send_message(event.conv, answers[0] )
