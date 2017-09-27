@@ -38,8 +38,9 @@ def beerfact(bot, event):
         "Beer bottles are brown because brown glass blocks harmful UV sunlight, preserving the taste. However due to a shortage during WWII most beer companies were forced to use clear glass and higher quality beer makers chose green to distinguish themselves. http://berghoffbeer.com/blog/what-does-the-color-of-your-beer-bottle-mean/",
         "Carlsberg beer used to have a Swastika (as a symbol of purity) in its logo. They removed it in 1940 after the Nazi's appropriated it. http://www.historynet.com/swastika-imprinted-bottle.htm",
         "Andre the Giant set the world record for number of beers consumed in a single sitting by drinking 119 12oz beers in six hours. 1976. https://www.usatoday.com/story/life/nation-now/2016/07/27/andre-the-giant-drinking-stories-feats-insane/87616884/",
-        "That Schlitz was the number one beer in America in the early 1950s and then they started messing with the ingredients to cut costs and the plant was closed less than 30 years later. https://beerconnoisseur.com/articles/how-milwaukees-famous-beer-became-infamous",
-        "In 1759 Arthur Guinness, founder of Guinness beer, leased an old unused brewery for £45 per year... for 9,000 YEARS. https://en.wikipedia.org/wiki/Arthur_Guinness"
+        "Schlitz was the number one beer in America in the early 1950s and then they started messing with the ingredients to cut costs and the plant was closed less than 30 years later. https://beerconnoisseur.com/articles/how-milwaukees-famous-beer-became-infamous",
+        "In 1759 Arthur Guinness, founder of Guinness beer, leased an old unused brewery for £45 per year... for 9,000 YEARS. https://en.wikipedia.org/wiki/Arthur_Guinness",
+        "Despite his namesake, Sir Alex Guinness was not, in fact, vegan."
     ]
 
     shuffle(answers)
